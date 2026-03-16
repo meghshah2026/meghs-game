@@ -1,0 +1,52 @@
+# 2048 Game
+
+This is a simple version of the popular **2048 game** made in Java. You can play it in your browser using Replit or run it locally in IntelliJ.
+
+---
+
+## How to Play
+
+- Use the **arrow keys** on your keyboard to move the tiles:
+  - **Up Arrow** – move all tiles up  
+  - **Down Arrow** – move all tiles down  
+  - **Left Arrow** – move all tiles left  
+  - **Right Arrow** – move all tiles right  
+- When two tiles with the same number touch, they **merge into one tile** with the sum of their values.  
+- Each move will add a new tile with the number **2 or 4** in a random empty spot.  
+- Your goal is to **create a tile with the number 2048**!  
+
+---
+
+## Rules
+
+1. Only tiles with the **same number** can merge.  
+2. Tiles slide in the direction of the arrow key **until they hit the edge or another tile**.  
+3. If there are **no moves left**, the game ends.  
+4. Keep merging tiles to reach **2048 or higher**.  
+
+---
+
+## Play in Browser
+ to play in your browser (via Replit):  
+(https://meghs-game-2048--meghshah2026.replit.app)
+Copy link onto browser to play.
+
+---
+
+## Run Locally
+
+1. Download this repository.  
+2. Open the project in **IntelliJ IDEA**.  
+3. Run the `GameMain.java` file (or the main class for the 2048 game).  
+4. Use the arrow keys to play.  
+
+---
+
+## Notes
+
+- Make sure your **keyboard focus is on the game window** when using arrow keys.  
+- The game keeps track of your score as you combine tiles.  
+
+---
+
+Enjoy and try to beat the game.
